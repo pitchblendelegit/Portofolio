@@ -53,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Packet Tracer", "Nmap", "Windows"];
-  const rightLists = ["Wireshark", "Linux"];
+  const leftLists = ["Packet Tracer", "MikroTik", "Windows"];
+  const rightLists = ["Wireshark", "Linux", "Winbox"];
 
   const [copied, setCopied] = useState(false);
 
@@ -134,7 +134,7 @@ export const BentoGridItem = ({
           {id === 4 && (
               <div className="mt-5">
                 <a
-                  href="https://drive.google.com/file/d/1jvxAwYjGo9PqYgncYAhMIvWZ6YNiGwJa/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1IXPLv0rmnWcRgRH4XHmYTer66LbjOI02/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-800 transition-colors border border-white/[0.1] font-bold"
